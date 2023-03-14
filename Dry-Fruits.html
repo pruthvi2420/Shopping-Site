@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!-- Header Starts -->
+
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Sathya</a>
+
+        <!-- <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+        </nav> -->
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-sign-out" id="sign-out-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+
+        <!-- Cart Page starts -->
+
+        <div class="shopping-cart">
+            <p id="cart-title" class="cart-title">Cart Items</p>
+            <!-- <p id="m-total-amount">Total Amout : 100</p> -->
+            <table class="items">
+                <thead>
+                    <td>Item</td>
+                    <td>Name</td>
+                    <td>Quantity</td>
+                    <td>Price</td>
+                </thead>
+                <tbody id="table-body">
+                    <tr>
+                        <td>
+                            <img src="images/product-whitechana-3.png" alt="">
+                        </td>
+                        <td class="white-chana">White Chana</td>
+                        <td>
+                            <button class="decrease-item">-</button>
+                            <span>1</span>
+                            <button class="increase-item">+</button>
+                        </td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Item : 5</p>
+                <p id="total-price"></p>
+                <p id="delievery">Free delievery on <span>Rs. 40 /-</span> </p>
+                <button class="btn">Checkout</button>
+            </div>
+
+        </div>
+        <!-- Cart Page Ends -->
+
+    </header>
+
+    <!-- Header Ends -->
+
+    <!-- Aata Products Starts -->
+    <section id="products" class="aata-details">
+        <h1 class="heading">Dry Fruits</h1>
+
+        <div class="product-grid">
+            <div class="box" id="box">
+                <img src="images/product-dal-4.png" alt="">
+                <h3>Dal</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-soyabeen-5.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="" id="box">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/product-moongdal-6.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-chanadal-8.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-sprite-1.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-sprite-1.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-sprite-1.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-sprite-1.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-sprite-1.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+
+            <div class="box" id="box">
+                <img src="images/product-sprite-1.png" alt="">
+                <h3>Sprite</h3>
+                <div class="price">Rs. 40/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <a href="#" class="btn" id="">add to cart</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Aata Products Ends -->
+
+    <!-- Footer Section  Starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>sathya <i class="fa fa-shopping-basket"></i></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook-official"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin-square"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#" class="links"> <i class="fa fa-mobile"></i>+91-9618782795</a>
+                <a href="#" class="links"><i class="fa fa-mobile"></i>+91-9505000452</a>
+                <a href="#" class="links"><i class="fa fa-envelope"></i>naiksaharsh2420@gmail.com</a>
+                <a href="#" class="links"><i class="fa fa-map-marker"></i>puttaparthi, Andhra Pradesh - 515134</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> categories </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn" id="">
+                <img src="images/" class="payment-img" alt="">
+            </div>
+        </div>
+
+        <div class="credit"> created by <span>mr. pruthvi naik</span> | all rights reserved</div>
+    </section>
+    <!-- Footer Section  Ends  -->
+
+
+
+
+
+
+    <!-- Home Section Ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+    <!-- Script Js link -->
+    <Script src="script.js"></Script>
+    <script src="/index.js" type="module"></script>
+</body>
+
+</html>
